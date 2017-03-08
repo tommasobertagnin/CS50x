@@ -1,0 +1,12 @@
+1.  `stdint.h` is a standard C library that contains a set of `typedef` with a fixed size in bytes
+2.  using the types defined in `stdint.h` ensures that variables have the correct byte size
+3.  BYTE has 8 bytes, DWORD has 32 bytes, LONG has 32 bytes, and WORD has 16 bytes
+4.  BM
+5.  bfSize is the file size, biSize it is the header size
+6.  that the scanlines are flipped top-to-bottom
+7.  biBitCount
+8.  for some reason the file could not be opened therefore `fopen` returns `NULL`
+9.  1 defines how many times the read operation is repeated
+10. 4
+11. fseek reads from a file and sets an offset to its content
+12. SEEK_CUR is the current position of the file pointer (it's not clear to me where this is stored though..)
